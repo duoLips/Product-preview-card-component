@@ -15,12 +15,11 @@ body {
     max-width: 1440px;
 }
 
-.card {
+.card {   
     margin: 100px auto;
     background-color: white;
     display: flex;
     width: 900px;
-    height: 700px;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -115,6 +114,7 @@ body {
     .card {
         flex-direction: column;
         width: 365px;
+        height: 100vh;
     }
 
     .picture {
@@ -129,6 +129,7 @@ body {
     .new-price {
         font-size: 2rem;
     }
+
     .content {
         padding: 20px;
     }
